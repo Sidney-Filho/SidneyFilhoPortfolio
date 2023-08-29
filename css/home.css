@@ -1,0 +1,79 @@
+#home {
+  background-color: #2a282d;
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#home-conteudo h1 {
+  font-size: 6rem;
+}
+
+#home-conteudo h1 span {
+  color: #00d4ff;
+}
+
+#home-conteudo {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  height: 150px;
+  gap: 20px;
+}
+
+#home-stack {
+  font-size: 1.3rem; 
+  color: #00d4ff;
+}
+
+#home-links {
+  margin-top: 15px;
+}
+
+#home-links a {
+  margin-right: 10px;
+  padding: 15px 15px 15px 0px;
+}
+
+
+#github {
+  fill: white;
+  transition: fill 0.2s ease-in-out;
+}
+
+#github:hover {
+  fill: #001022;
+}
+
+#linkedin {
+  fill: white;
+  transition: fill 0.2s ease-in-out;
+}
+
+#linkedin:hover {
+  fill: #008cff;
+}
+
+#home-img {
+  width: 500px;
+}
+
+#cv {
+  margin-top: 30px;
+  width: 220px;
+  padding: 25px;
+  border-radius: 30px;
+  color: white;
+  font-size: 1.1rem;
+  text-align: center;
+  border: 2px solid #00d4ff;
+  transition: 0.3s ease-in-out;
+}
+
+#cv:hover {
+  transition: 0.3s ease-in-out;
+  background-color: #00d4ff;
+}

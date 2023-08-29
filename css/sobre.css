@@ -1,0 +1,29 @@
+#sobre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 60px;
+  background-color: #1d1c20;
+  border-bottom: 5px dotted #2a282d;
+}
+
+.sobre-title {
+  font-size: 7rem;
+  padding: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(146, 146, 146, 0.703);
+}
+
+.sobre-text {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  color: white;
+  padding: 60px;
+}
+
+.sobre-text p {
+  margin-bottom: 30px;
+}

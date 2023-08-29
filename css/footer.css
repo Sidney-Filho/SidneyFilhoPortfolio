@@ -1,0 +1,11 @@
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-size: 1rem;
+  background-color: #2a282d;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+}

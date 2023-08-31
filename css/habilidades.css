@@ -18,7 +18,7 @@
   background-color: #1d1c20;
 }
 
-button#programacao-btn.active-button, #design-btn.active-button, #tecno-btn.active-button, #language-btn.active-button {
+button#programacao-btn.active-button, #design-btn.active-button, #tecno-btn.active-button, #language-btn.active-button, #extra-btn.active-button {
   color: #00d4ff;
   border-bottom: 2px solid #00d4ff;
   transition: 0.3s ease-in-out;
@@ -50,12 +50,13 @@ button#programacao-btn.active-button, #design-btn.active-button, #tecno-btn.acti
 
 .technology {
   display: flex;
+  justify-content: start;
   flex-wrap: wrap;
   overflow-x: hidden;
   overflow-y: scroll;
   padding: 90px 40px 40px 40px;
   background-color: #2a282d;
-  width: 650px;
+  width: 700px;
   height: 500px;
   border-radius: 10px;
   gap: 30px;
@@ -100,7 +101,7 @@ button#programacao-btn.active-button, #design-btn.active-button, #tecno-btn.acti
   font-family: "Roboto Mono", monospace;
 }
 
-img.imagem-technology:hover {
+.imagem-technology:hover {
   border-radius: 10px;
   transition: 0.2s ease-in-out;
 }
@@ -147,6 +148,10 @@ img#imagem-figma:hover {
 
 #imagem-espanha:hover {
   background-color: rgb(113, 0, 0);
+}
+
+#imagem-hardware:hover {
+  background-color: rgb(0, 0, 0);
 }
 
 /* Parte da Formação */

@@ -8,11 +8,12 @@
   border-bottom: 5px dotted #2a282d;
 }
 
-.sobre-title {
-  font-size: 7rem;
-  padding: 30px;
-  font-family: 'Montserrat', sans-serif;
-  color: rgba(146, 146, 146, 0.703);
+.sobre-image img {
+  width: 700px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 8px 9px 53px -7px rgba(0, 0, 0, 0.525);
 }
 
 .sobre-text {

@@ -36,6 +36,8 @@
         technologyContainers[8].style.display = 'block'
         technologyContainers[9].style.display = 'block'
         technologyContainers[10].style.display = 'block'
+      } else if (button.id === 'extra-btn') {
+        technologyContainers[11].style.display = 'block'
       }
       else {
         // Se não for o botão "Design" ou "Programação", mostra a tecnologia correspondente ao botão clicado

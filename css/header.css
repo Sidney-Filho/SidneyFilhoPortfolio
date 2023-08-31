@@ -17,7 +17,14 @@ header {
   font-family: "Poppins", sans-serif;
 }
 
-ul li a {
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu a {
+  display: block;
   font-size: 1.1rem;
   margin: 0.4rem;
   padding: 1rem;
@@ -26,7 +33,7 @@ ul li a {
   position: relative;
 }
 
-ul li a::after {
+#menu a::after {
   content: " ";
   width: 0%;
   height: 2px;
@@ -37,6 +44,52 @@ ul li a::after {
   transition: 0.3s ease-in-out;
 }
 
-ul li a:hover::after {
+#menu a:hover::after {
   width: 100%;
+}
+
+#btn-mobile {
+  display: none;
+}
+
+@media (max-width: 840px) {
+ #menu {
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 88px;
+  left: 0;
+  height: 0px;
+  background-color: #1d1c20;
+  transition: .4s ease-in-out;
+  visibility: hidden;
+  overflow-y: hidden;
+ }
+ #menu a {
+  padding: 1.5rem 0;
+  margin: 0 1.5rem;
+  border-bottom: 3px solid #2a282d;
+ }
+ #nav.active #menu {
+  height: 40vh;
+  visibility: visible;
+ }
+ #btn-mobile {
+  display: flex;
+  width: 38px;
+  height: 38px;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: white;
+  background: url(../img/list.svg) no-repeat;
+  transition: 0.2s ease-in-out;
+ }
+
+ #nav.active #btn-mobile {
+  transition: 0.2s ease-in-out;
+  background: url(../img/x.svg) no-repeat;
+ }
 }

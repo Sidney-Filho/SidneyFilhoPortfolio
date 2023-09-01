@@ -1,0 +1,27 @@
+@media (max-width: 1020px) {
+  #home-conteudo {
+    padding: 20px;
+  }
+  .sobre-image {
+    display: none;
+  }
+  section#skills {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  div.technology {
+    max-width: 90%;
+    margin: 40px;
+  }
+  div.card-contato {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 750px) {
+  #home-img {
+    display: none;
+  }
+}

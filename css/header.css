@@ -71,7 +71,7 @@ header {
   border-bottom: 3px solid #2a282d;
  }
  #nav.active #menu {
-  height: 40vh;
+  height: 42vh;
   visibility: visible;
  }
  #btn-mobile {

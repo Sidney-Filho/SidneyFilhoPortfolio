@@ -26,7 +26,7 @@ button#programacao-btn.active-button, #design-btn.active-button, #tecno-btn.acti
 
 
 .botao-skills {
-  position: absolute;
+  position: flex;
   top: 20px;
   gap: 10px;
 }
@@ -38,8 +38,8 @@ button#programacao-btn.active-button, #design-btn.active-button, #tecno-btn.acti
   background: none;
   cursor: pointer;
   font-size: 20px;
-  padding: 10px 10px 5px 10px;
-  margin-left: 10px;
+  padding: 10px;
+  margin: 15px 15px 0px 0px;
 }
 
 .botao-skills button:hover {
@@ -54,7 +54,7 @@ button#programacao-btn.active-button, #design-btn.active-button, #tecno-btn.acti
   flex-wrap: wrap;
   overflow-x: hidden;
   overflow-y: scroll;
-  padding: 90px 40px 40px 40px;
+  padding: 40px 40px 40px 40px;
   background-color: #2a282d;
   width: 700px;
   height: 500px;

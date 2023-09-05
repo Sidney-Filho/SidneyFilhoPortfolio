@@ -109,5 +109,11 @@
   pointer-events: none;
 }
 
+#progress {
+  font-size: 1.2rem;
+  font-family: 'QuickSand', sans-serif;
+  color: red;
+}
+
 
 

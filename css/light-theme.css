@@ -1,0 +1,87 @@
+/* Light Theme */
+.light {
+  transition: all 0.2s;
+}
+
+.light,
+.light header {
+  background-color: rgb(236, 236, 236);
+}
+
+.light,
+.light #logo {
+  color: black;
+}
+
+.light,
+.light #menu a {
+  color: black;
+}
+
+.light,
+.light #home {
+  color: black;
+  background-color: rgb(236, 236, 236);
+}
+
+.light,
+.light #home h1 span{
+  color: black;
+}
+
+.light,
+.light #home-stack{
+  color: black;
+}
+
+.light,
+.light #cv {
+  color: black;
+  border: 2px solid black;
+}
+
+.light,
+.light #cv:hover {
+  color: white;
+  background-color: black;
+}
+
+.light,
+.light #sobre {
+  background-color: rgb(219, 219, 219);
+}
+
+.light,
+.light .sobre-text {
+  color: black;
+  font-weight: bold;
+}
+
+.light,
+.light #skills {
+  background-color: rgb(236, 236, 236);
+  color: black;
+}
+
+.light,
+.light #skills-titulo {
+  background-color: rgb(236, 236, 236);
+  color: black;
+}
+
+.light,
+.light .technology {
+  background-color: rgb(236, 236, 236);
+  color: black;
+}
+
+.light,
+.light .botao-skills button {
+  color: black;
+}
+
+.light,
+.light .titulo-technology {
+  color: black;
+  font-weight: bold;
+}

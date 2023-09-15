@@ -5,6 +5,12 @@
   scroll-behavior: smooth;
 }
 
+html,
+body {
+  height: 100%;
+  transition:  0.2s;
+}
+
 img {
   max-width: 100%;
 }

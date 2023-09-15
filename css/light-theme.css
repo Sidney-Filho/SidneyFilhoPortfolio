@@ -3,85 +3,151 @@
   transition: all 0.2s;
 }
 
-.light,
 .light header {
   background-color: rgb(236, 236, 236);
+  font-weight: 600;
 }
 
-.light,
 .light #logo {
   color: black;
 }
 
-.light,
 .light #menu a {
   color: black;
 }
 
-.light,
 .light #home {
   color: black;
-  background-color: rgb(236, 236, 236);
+  background-color: rgb(219, 219, 219);
 }
 
-.light,
 .light #home h1 span{
-  color: black;
+  color: #0087a1;
 }
 
-.light,
 .light #home-stack{
-  color: black;
+  color: #0087a1;
+  font-weight: 600;
 }
 
-.light,
 .light #cv {
   color: black;
   border: 2px solid black;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
-.light,
 .light #cv:hover {
   color: white;
   background-color: black;
 }
 
-.light,
 .light #sobre {
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(236, 236, 236);
 }
 
-.light,
 .light .sobre-text {
   color: black;
-  font-weight: bold;
+  font-weight: 600;
 }
 
-.light,
-.light #skills {
-  background-color: rgb(236, 236, 236);
-  color: black;
-}
-
-.light,
 .light #skills-titulo {
   background-color: rgb(236, 236, 236);
   color: black;
 }
 
-.light,
+.light #skills {
+  background-color: rgb(236, 236, 236);
+  color: black;
+}
+
+
 .light .technology {
   background-color: rgb(236, 236, 236);
   color: black;
 }
 
-.light,
 .light .botao-skills button {
   color: black;
 }
 
-.light,
 .light .titulo-technology {
   color: black;
+}
+
+.light .titulo-projetos {
+  color: black;
+  font-weight: 600;
+  background-color: rgb(219, 219, 219);  
+}
+
+.light .nome-projeto {
   font-weight: bold;
+  color: #0087a1;
+}
+
+.light .projetos-container {
+  color: black;
+  background-color: rgb(219, 219, 219);  
+}
+
+.light .projetos-container-2 {
+  color: black;
+  background-color: rgb(236, 236, 236); 
+}
+
+.light .projetos-container-3 {
+  color: black;
+  background-color: rgb(219, 219, 219); 
+}
+
+.light .link-projeto {
+  border: 2px solid black;
+  color: black;
+  font-weight: 600;
+  background-color: #f3f3f3;
+}
+
+.light .link-projeto:hover {
+  background-color: black;
+  font-weight: 600;
+  color: white;
+}
+
+.light #contato-title {
+  background-color: rgb(236, 236, 236); 
+  color: black;
+}
+
+
+.light .contato-container {
+  background-color: rgb(236, 236, 236); 
+  color: black;
+}
+
+
+.light .card-contato {
+  background-color: rgb(236, 236, 236); 
+  color: black;
+}
+
+.light #contato-links a { 
+  font-weight: 600;
+  color: black;
+}
+
+.light #contato-links a:hover {
+  color: #0087a1;
+}
+
+.light .location-id a { 
+  color: black;
+  font-weight: 600;
+}
+
+
+.light footer {
+  background-color: rgb(219, 219, 219);
+  color: black;
+  font-weight: 600;
 }

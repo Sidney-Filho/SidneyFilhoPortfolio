@@ -46,6 +46,7 @@
     max-width: 90%;
     padding: 0px 30px 30px 30px;
     margin: 40px;
+    gap: 30px 20px;
   }
   div.graduation {
     max-width: 100%;

@@ -43,7 +43,7 @@
 }
 
 .light #sobre {
-  background-color: rgb(236, 236, 236);
+  background-color: rgb(248, 248, 248);
 }
 
 .light .sobre-text {
@@ -52,12 +52,12 @@
 }
 
 .light #skills-titulo {
-  background-color: rgb(236, 236, 236);
+  background-color: rgb(248, 248, 248);
   color: black;
 }
 
 .light #skills {
-  background-color: rgb(236, 236, 236);
+  background-color: rgb(248, 248, 248);
   color: black;
 }
 
@@ -78,7 +78,7 @@
 .light .titulo-projetos {
   color: black;
   font-weight: 600;
-  background-color: rgb(219, 219, 219);  
+  background-color: rgb(236, 236, 236); 
 }
 
 .light .nome-projeto {
@@ -88,17 +88,17 @@
 
 .light .projetos-container {
   color: black;
-  background-color: rgb(219, 219, 219);  
+  background-color: rgb(236, 236, 236);  
 }
 
 .light .projetos-container-2 {
   color: black;
-  background-color: rgb(236, 236, 236); 
+  background-color: rgb(248, 248, 248); 
 }
 
 .light .projetos-container-3 {
   color: black;
-  background-color: rgb(219, 219, 219); 
+  background-color: rgb(236, 236, 236); 
 }
 
 .light .link-projeto {
@@ -115,13 +115,13 @@
 }
 
 .light #contato-title {
-  background-color: rgb(236, 236, 236); 
+  background-color: rgb(248, 248, 248); 
   color: black;
 }
 
 
 .light .contato-container {
-  background-color: rgb(236, 236, 236); 
+  background-color: rgb(248, 248, 248);
   color: black;
 }
 

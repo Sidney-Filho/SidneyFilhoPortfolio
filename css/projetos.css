@@ -22,6 +22,11 @@
 }
 
 .img-projetos img {
+  width: 1200px;
+  border-radius: 10px;
+}
+
+.img-soon img {
   width: 650px;
   border-radius: 10px;
 }

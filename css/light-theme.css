@@ -12,6 +12,10 @@
   color: black;
 }
 
+.light ul#menu {
+  background-color: #f3f3f3;
+}
+
 .light #menu a {
   color: black;
 }

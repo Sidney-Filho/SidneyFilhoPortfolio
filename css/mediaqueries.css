@@ -61,6 +61,12 @@
   .img-projetos {
     display: none;
   }
+  .img-soon {
+    display: none;
+  }
+  .projetos-container-3 {
+    justify-content: start;
+  }
   div#contato-links {
     max-width: 100%;
     flex-direction: column;

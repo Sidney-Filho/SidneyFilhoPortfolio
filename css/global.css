@@ -29,3 +29,16 @@ ul, li, a {
   background-color: #00000073;
   border-radius: 5px;
 }
+
+/* Defina as propriedades iniciais dos elementos */
+.elemento {
+  opacity: 0;
+  transform: translateY(20px); /* Os elementos começam 20 pixels abaixo */
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+/* Defina uma classe para animar o elemento */
+.aparecer {
+  opacity: 1;
+  transform: translateY(0);
+}

@@ -18,7 +18,7 @@
 
 .light #home {
   color: black;
-  background-color: rgb(219, 219, 219);
+  background: linear-gradient(90deg, rgb(216, 216, 216), white);
 }
 
 .light #home h1 span{

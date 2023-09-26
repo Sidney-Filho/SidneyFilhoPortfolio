@@ -1,8 +1,8 @@
 #home {
-  background-color: #2a282d;
-  height: 95vh;
+  background: linear-gradient(90deg, #2a282d, black);
+  height: 100vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   color: white;
   font-family: 'Montserrat', sans-serif;
@@ -57,15 +57,9 @@
   fill: #008cff;
 }
 
-#home-img {
-  width: 600px;
-}
-
-#home-img img {
-  border-radius: 10px;
-}
 
 #cv {
+  align-self: center;
   margin-top: 30px;
   width: 220px;
   padding: 25px;

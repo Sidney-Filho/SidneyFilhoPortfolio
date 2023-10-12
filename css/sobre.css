@@ -9,14 +9,15 @@
 }
 
 .sobre-image img {
-  width: 700px;
+  width: 600px;
   margin: 10px;
   padding: 10px;
+  border-radius: 20px;
   transition: .2s ease-in;
 }
 
 .sobre-image img:hover {
-  width: 710px;
+  width: 605px;
   transition: .2s ease-out;
 }
 

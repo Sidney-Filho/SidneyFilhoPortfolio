@@ -21,23 +21,22 @@
       // Verifica qual botão foi clicado
       if (button.id === 'design-btn') {
         // Mostra apenas o container do Figma
-        technologyContainers[5].style.display = 'block'; // Figma
+        technologyContainers[6].style.display = 'block'; // Figma
       } else if (button.id === 'programacao-btn') {
         // Mostra apenas os containers HTML, CSS e JavaScript
         technologyContainers[0].style.display = 'block'; // HTML
         technologyContainers[1].style.display = 'block'; // CSS
         technologyContainers[2].style.display = 'block'; // JavaScript
+        technologyContainers[3].style.display = 'block'; // C
       } else if (button.id === 'tecno-btn') {
-        technologyContainers[4].style.display = 'block'; //Github
-        technologyContainers[6].style.display = 'block'; //Git
-        technologyContainers[7].style.display = 'block'; //WordPress
-        technologyContainers[3].style.display = 'block'; //Tailwind
+        technologyContainers[5].style.display = 'block'; //Git
+        technologyContainers[8].style.display = 'block'; //WordPress
+        technologyContainers[7].style.display = 'block'; //Tailwind
+        technologyContainers[4].style.display = 'block'; //Tailwind
       } else if (button.id === 'language-btn') {
-        technologyContainers[8].style.display = 'block'
         technologyContainers[9].style.display = 'block'
         technologyContainers[10].style.display = 'block'
-      } else if (button.id === 'extra-btn') {
-        technologyContainers[11].style.display = 'block' // Hardaware
+        technologyContainers[11].style.display = 'block'
       }
       else {
         // Se não for o botão "Design" ou "Programação", mostra a tecnologia correspondente ao botão clicado

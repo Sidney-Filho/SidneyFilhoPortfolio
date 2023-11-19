@@ -26,11 +26,6 @@
   border-radius: 10px;
 }
 
-.img-soon img {
-  width: 650px;
-  border-radius: 10px;
-}
-
 .nome-projeto {
   font-size: 2.7rem;
   font-family: 'Montserrat', sans-serif;
@@ -72,9 +67,8 @@
   padding: 5px 5px 5px 0px;
 }
 
-.tecno-usada img {
-  width: 60px;
-  height: 60px;
+.tecno-usada i {
+  font-size: 2rem;
 }
 
 .tecno-title {

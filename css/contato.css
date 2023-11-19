@@ -27,7 +27,7 @@
 }
 
 .icone-contato {
-  width: 45px;
+  font-size: 2rem;
 }
 
 #contato-message {
@@ -68,8 +68,8 @@
   align-items: center;
 }
 
-#location img {
-  width: 45px;
+#location i {
+  font-size: 2rem;
   padding: 15px 15px 15px 0px;
 }
 
